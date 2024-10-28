@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Living Room Ideas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><strong>Dec'Me</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="livingroom.html">Living Room</a></li>
+          <li class="nav-item"><a class="nav-link" href="bedroom.html">Bedroom</a></li>
+          <li class="nav-item"><a class="nav-link" href="kitchen.html">Kitchen</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-footer">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="livingroom-title">
+  <div class="container">
+    <h1 class="text-center">Living Room Design Ideas</h1>
+    <p class="text-center">Discover inspiring designs to transform your living room into a stylish haven.</p>
+  </div>
+</section>
+
+<div class="container filter-btns text-center">
+  <button class="btn filter-btn fw-bold" onclick="filterItems('all')">All</button>
+  <button class="btn filter-btn fw-bold" onclick="filterItems('contemporary')">Contemporary</button>
+  <button class="btn filter-btn fw-bold" onclick="filterItems('classic')">Classic</button>
+  <button class="btn filter-btn fw-bold" onclick="filterItems('eclectic')">Eclectic</button>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 item contemporary">
+      <div class="card mb-4 shadow-sm">
+        <img src="/gambar/contemporary.jpg" class="card-img-top" alt="Contemporary Living Room">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Contemporary Living Room</h5>
+          <p class="card-text">Clean lines and neutral tones create a calm, modern atmosphere.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 item classic">
+      <div class="card mb-4 shadow-sm">
+        <img src="/gambar/classic.jpg" class="card-img-top" alt="Classic Living Room">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Classic Living Room</h5>
+          <p class="card-text">Elegant and timeless design with plush furniture and warm colors.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 item eclectic">
+      <div class="card mb-4 shadow-sm">
+        <img src="/gambar/eclectic.jpg" class="card-img-top" alt="Eclectic Living Room">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Eclectic Living Room</h5>
+          <p class="card-text">A mix of textures and patterns for a unique, personalized space.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer id="contact-footer" class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <div class="d-flex justify-content-center mb-3">
+      <div class="follow"><a>Find Us At :</a></div>
+      <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>Contact Us: <a href="mailto:info@homedecor.com" class="text-white">info@Dec'Me.com</a> | Phone: +123-456-7890</p>
+    <p><a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Service</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

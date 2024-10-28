@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitchen Ideas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>Dec'Me</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="livingroom.html">Living Room</a></li>
+            <li class="nav-item"><a class="nav-link" href="bedroom.html">Bedroom</a></li>
+            <li class="nav-item"><a class="nav-link" href="kitchen.html">Kitchen</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-footer">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<section class="kitchen-title">
+  <div class="container">
+    <h1 class="text-center fw-bold">Stylish Kitchen Ideas</h1>
+    <p class="text-center">Organize and decorate your kitchen for both style and functionality.</p>
+  </div>
+</section>
+
+<div class="container filter-btns text-center">
+  <button class="btn filter-btn fw-bold" onclick="filterItems('all')">All</button>
+  <button class="btn filter-btn fw-bold" onclick="filterItems('modern')">Modern</button>
+  <button class="btn filter-btn fw-bold" onclick="filterItems('rustic')">Rustic</button>
+  <button class="btn filter-btn fw-bold" onclick="filterItems('small-space')">Small Space</button>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 item modern">
+      <div class="card mb-4 shadow-sm">
+        <img src="/gambar/05_Cabinets.jpg" class="card-img-top" alt="Modern Kitchen">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Modern Kitchen</h5>
+          <p class="card-text">Stainless steel appliances and sleek cabinetry for a polished look.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 item rustic">
+      <div class="card mb-4 shadow-sm">
+        <img src="/gambar/rustic kitchen.jpg" class="card-img-top" alt="Rustic Kitchen">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Rustic Kitchen</h5>
+          <p class="card-text">Warm wood tones and natural materials bring a rustic feel.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 item small-space">
+      <div class="card mb-4 shadow-sm">
+        <img src="/gambar/small kitchen.jpg" class="card-img-top" alt="Small Space Kitchen">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Small Space Kitchen</h5>
+          <p class="card-text">Efficient storage solutions for compact kitchens.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer id="contact-footer" class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <div class="d-flex justify-content-center mb-3">
+        <div class="follow"><a>Find Us At :</a></div>
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>Contact Us: <a href="mailto:info@homedecor.com" class="text-white">info@Dec'Me.com</a> | Phone: +123-456-7890</p>
+      <p><a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Service</a></p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
