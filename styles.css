@@ -15,7 +15,7 @@ body {
   text-decoration: underline;
 }
 .hero-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/64e2ec07a40f4.jpg") center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/gambar/64e2ec07a40f4.jpg") center/cover;
   color: white;
   padding: 60px 0;
   margin-bottom: 10px;
@@ -54,15 +54,15 @@ body {
   margin-bottom: 10px;
 }
 .livingroom-title {
-  background-image: url('/interior rumah.png');
+  background-image: url('/gambar/interior rumah.png');
   background-size: cover;
 }
 .bedroom-title {
-  background-image: url('/Desain-Kamar-Tidur-Minimalis-1024x614.jpg');
+  background-image: url('/gambar/Desain-Kamar-Tidur-Minimalis-1024x614.jpg');
   background-size: cover;
 }
 .kitchen-title {
-  background-image: url('/7-Inspirasi-Dapur-Minimalis-Modern--Masak-Lebih-Semangat.jpg');
+  background-image: url('/gambar/7-Inspirasi-Dapur-Minimalis-Modern--Masak-Lebih-Semangat.jpg');
   background-size: cover;
 }
 footer {
